@@ -1,0 +1,178 @@
+.game-card {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.game-card h3 {
+    color: #ffcc00;
+    margin-top: 15px;
+}
+
+.game-card a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.game-card a:hover {
+    text-decoration: underline;
+}
+
+
+footer .social-links {
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+
+footer .social-links a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #444;
+    color: white;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #00ff00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00cc00;
+}
+
+
+/* Game Cards */
+#games {
+    text-align: center;
+    padding: 20px;
+}
+
+.game-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background: #222;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game-card h3 {
+    margin: 10px 0;
+}
+
+.game-card a {
+    display: inline-block;
+    padding: 8px 12px;
+    color: white;
+    background: red;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Suggestion Box */
+#suggestion-box {
+    text-align: center;
+    padding: 20px;
+}
+
+#suggestion-form input, #suggestion-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+#suggestion-form button {
+    padding: 10px 15px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+    .game-card {
+        width: 90%;
+    }
+
+    #suggestion-form input, #suggestion-form textarea {
+        width: 100%;
+    }
+}
+
+
+
+/* Contact Form */
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 15px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
